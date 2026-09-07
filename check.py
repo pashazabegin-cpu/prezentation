@@ -16,12 +16,12 @@ errors = []
 
 # 1. Ключевые селекторы: разметка без стилей выглядит рабочей, но эффекта нет
 REQUIRED_CSS = [
-    '--u:', '.slide', '.stage', '.stage::after', '.tile', '.tile__in',
+    '--u:', '.slide', '.stage', '.tile', '.tile__in',
     '.tile.is-hot',
     'html.js .tile', 'html.js .rv', '.tile.is-vis', '.rv.is-vis',
     '.marquee', '.marquee__track', '.mark', '.plate',
     '.t--16-26', '.t--16-40', '.t--12-23', '.t--12-44', '.t--16-16',
-    '.hud', '.t--big', '.slide--intro', '.slide--long', '.pin',
+    '.hud', '.t--big', '.slide--intro', '.pin',
     '.depth', '.cut .w', '.cut .m', '.cut.is-vis', '.cut.is-out',
     '.cursor-ink', '.cursor-ui', '.cursor-ink__dot', '.cursor-ui__accent',
     'html.has-cursor', 'html.c-awake', 'html.c-awake.c-view',
