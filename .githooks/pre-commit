@@ -1,0 +1,7 @@
+#!/bin/sh
+# Не даёт закоммитить сломанную презентацию: гоняет check.py перед каждым коммитом.
+python3 "$(git rev-parse --show-toplevel)/check.py" || {
+  echo ""
+  echo "Коммит отменён. Почини то, что выше, или обойди проверку: git commit --no-verify"
+  exit 1
+}
